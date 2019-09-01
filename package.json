@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "DEBUG=loopback:datasource node .",
+    "start": "node .",
     "posttest": "npm run lint && npm audit"
   },
   "dependencies": {
