@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "url": "",
+    "database": "samp",
+    "password": "samp",
+    "name": "mongodb",
+    "user": "samp",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
