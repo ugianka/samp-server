@@ -1,10 +1,6 @@
 {
-    "db": {
-      "name": "db",
-      "connector": "memory"
-    },
-    "mongodb": {
-      "host": "server.sample.svc.cluster.local",
+     "mongodb": {
+      "host": "db.sample.svc.cluster.local",
       "port": 27017,
       "url": "",
       "database": "samp",
