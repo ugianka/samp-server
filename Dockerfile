@@ -1,7 +1,7 @@
 FROM nodejs:latest
 
 
-COPY ./* .
+COPY ./* ./
 
 RUN npm i
 
