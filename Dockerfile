@@ -1,9 +1,7 @@
 FROM nodejs:latest
 
-RUN mkdir -p /app
-WORKDIR /app
 
-COPY ./* /app
+COPY ./* .
 
 RUN npm i
 
