@@ -1,4 +1,4 @@
-FROM nodejs:11
+FROM nodejs:latest
 
 RUN mkdir -p /app
 WORKDIR /app
